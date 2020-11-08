@@ -1,0 +1,63 @@
+body, div, html {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-color: #eeeeee;
+}
+  #clickMe {
+    border: 1px solid black;
+    display: inline-block;
+    padding:10px;
+    border-radius: 3px;
+    margin-left: 50px;
+  }
+  #clickMe:hover {
+    cursor: pointer;
+  }
+  .darkMode {
+    background-color: #222222;
+    color: white;
+  }
+  .darkModeContainer {
+      background-color: #333333 !important;
+      color: white;
+  }
+  
+.container {
+    display: flex;
+    /* border: 1px solid grey; */
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+    background-color: white;
+}
+.price {
+    align-self: flex-start;
+    justify-content: flex-start;
+    padding-left: 5px;
+    flex-basis: 33%;
+}
+.itemName {
+    align-self: center !important;
+    flex-basis: 33%;
+}
+.details {
+    
+    align-self: flex-end;
+    justify-content: flex-end;
+    padding-right: 5px;
+    flex-basis: 33%;
+}
+#headTitle {
+    margin-left: 50px;
+}
+#headerLine {
+    height: 2px;
+    background-color: black;
+    width: 50px;
+    margin-bottom: 20px;
+}
